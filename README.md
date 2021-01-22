@@ -22,7 +22,7 @@ You can change the SQL configuration in [api/app/config/db.config.js](api/app/co
     DB_PASS=YourStrong@Passw0rd1
     DB_PORT=1401
     DB_DIALECT=mssql
-    SERVER_PORT=3000
+    PORT=3000
     ```
     - **SQLite**:
     ```bash
@@ -32,7 +32,7 @@ You can change the SQL configuration in [api/app/config/db.config.js](api/app/co
     DB_PORT=1401
     DB_STORAGE=mobile_metrics.sqlite
     DB_DIALECT=sqlite
-    SERVER_PORT=3000
+    PORT=3000
     ```
 
 4. Install the dependencies by running `./yarn install`; for true offline installations, please update the `.gitignore` file to persist the downloaded binaries
