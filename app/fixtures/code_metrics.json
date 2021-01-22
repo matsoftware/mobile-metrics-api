@@ -26,5 +26,33 @@
             "external_deps": 11,
             "createdAt": "2020-07-14T05:40:05"
         }
+    },
+    {
+        "model": "CodeMetrics",
+        "data": {
+            "name": "MyMobileApp",
+            "deps_test_loc": 2200,    
+            "deps_prod_loc": 3905,
+            "repo_test_loc": 1200,
+            "repo_prod_loc": 2450,
+            "repo_dupl_loc": 250,
+            "internal_deps": 6,
+            "external_deps": 11,
+            "createdAt": "2020-10-15T10:00:05"
+        }
+    },
+    {
+        "model": "CodeMetrics",
+        "data": {
+            "name": "MyMobileApp",
+            "deps_test_loc": 2214,    
+            "deps_prod_loc": 4107,
+            "repo_test_loc": 1500,
+            "repo_prod_loc": 2300,
+            "repo_dupl_loc": 160,
+            "internal_deps": 6,
+            "external_deps": 11,
+            "createdAt": "2021-01-22T14:37:05"
+        }
     }
 ]
