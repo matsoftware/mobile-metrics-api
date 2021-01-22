@@ -8,10 +8,12 @@ const sequelize = new Sequelize({
     password: dbConfig.PASSWORD,
     host: dbConfig.HOST,
     dialect: dbConfig.dialect,
+    storage: dbConfig.storage,
     port: dbConfig.PORT,
     encrypt: dbConfig.encrypt,
     pool: dbConfig.pool,
-    dialectOptions: dbConfig.dialectOptions
+    dialectOptions: dbConfig.dialectOptions,
+    logging: console.log
 });
 
 const db = {};
@@ -47,6 +49,8 @@ function sync() {
 }
 
 db.sync = sync
+
+console.log(dbConfig.storage)
 
 // EXPORTS
 module.exports = db;
